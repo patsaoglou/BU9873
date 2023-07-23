@@ -37,16 +37,16 @@
  *
  *      7) Use reset_alarm() to reset alarm FLG reg that triggers the interrupt pin
  *
- *		8) Use disable_alarm() to disable alarm completely
+ *	8) Use disable_alarm() to disable alarm completely
  *
- *		9) Use get_alarm_pin() to read interrupt pin (Use function in polling mode)
+ *	9) Use get_alarm_pin() to read interrupt pin (Use function in polling mode)
  *
- *		10) binary_to_bcd() and bcd_to_binary() are used for data conversion (IC needs BCD values)
+ *	10) binary_to_bcd() and bcd_to_binary() are used for data conversion (IC needs BCD values)
  *
- *		NOTE: set_alarm_A() weekdays parameter is 7bit truth table like number from 0b0000000
- *		(no alarm) to 0b1111111 (every day alarm).
+ *	NOTE: set_alarm_A() weekdays parameter is 7bit truth table like number from 0b0000000
+ *	(no alarm) to 0b1111111 (every day alarm).
  *
- *			Example: to set alarm for TUE and FRI, set weekday parameter to 0b0100100
+ *	 Example: to set alarm for TUE and FRI, set weekday parameter to 0b0100100
  */
 
 #include "bu9873_config.h"
