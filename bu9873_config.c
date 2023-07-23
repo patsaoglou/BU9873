@@ -46,7 +46,7 @@
  *	NOTE: set_alarm_A() weekdays parameter is 7bit truth table like number from 0b0000000
  *	(no alarm) to 0b1111111 (every day alarm).
  *
- *	 Example: to set alarm for TUE and FRI, set weekday parameter to 0b0100100
+ *	Example: to set alarm for TUE and FRI, set weekday parameter to 0b0100100
  */
 
 #include "bu9873_config.h"
