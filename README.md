@@ -1,5 +1,7 @@
 In this repository, i share a STM32 Firmware driver for the BU9873 RTC IC. I also supply the datasheet document provided by the manufacturer with notes i did that were important for the initialization of the RTC IC. You are also going to find instructions to use the code with a initialization example.
 
+In depth tutorial video available on my youtube channel: https://www.youtube.com/watch?v=8UzbhbCSYwc 
+
 Note: if there is an issue with the code, let me know!
 
 Firmware driver for the BU9873 RTC IC:
